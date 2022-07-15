@@ -72,3 +72,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.divContent {
+  border-radius: 35px;
+}
+
+h1 {
+  margin-bottom: 60px !important;
+}
