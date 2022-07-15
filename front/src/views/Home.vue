@@ -61,7 +61,9 @@ export default {
     };
   },
   created() {
-    this.getSensors();
+    setInterval(() => {
+      this.getSensors();
+    }, 3000)
   },
   methods: {
     async getSensors() {
